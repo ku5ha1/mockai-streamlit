@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int
     SECRET_KEY: str
     REDIS_URL: str = "redis://127.0.0.1:6379/0"
+    GEMINI_API_KEY: str
     
     ALGORITHM: str = "HS256"
     
